@@ -12,6 +12,7 @@
 		EC05D68F1DC97A3C00A58FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC05D68D1DC97A3C00A58FE5 /* Main.storyboard */; };
 		EC05D6911DC97A3C00A58FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC05D6901DC97A3C00A58FE5 /* Assets.xcassets */; };
 		EC05D6941DC97A3C00A58FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC05D6921DC97A3C00A58FE5 /* LaunchScreen.storyboard */; };
+		EC05D69C1DC97A4500A58FE5 /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC05D69B1DC97A4500A58FE5 /* MyProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EC05D6901DC97A3C00A58FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC05D6931DC97A3C00A58FE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC05D6951DC97A3C00A58FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC05D69B1DC97A4500A58FE5 /* MyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				EC05D6891DC97A3C00A58FE5 /* AppDelegate.swift */,
 				EC05D68B1DC97A3C00A58FE5 /* ViewController.swift */,
+				EC05D69B1DC97A4500A58FE5 /* MyProtocol.swift */,
 				EC05D68D1DC97A3C00A58FE5 /* Main.storyboard */,
 				EC05D6901DC97A3C00A58FE5 /* Assets.xcassets */,
 				EC05D6921DC97A3C00A58FE5 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC05D69C1DC97A4500A58FE5 /* MyProtocol.swift in Sources */,
 				EC05D68C1DC97A3C00A58FE5 /* ViewController.swift in Sources */,
 				EC05D68A1DC97A3C00A58FE5 /* AppDelegate.swift in Sources */,
 			);
